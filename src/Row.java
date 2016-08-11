@@ -1,15 +1,18 @@
 
-public class Row {
-	int start;
-	int end;
+public class Row extends Range {
+
 	char status;
 	int transferCode;
-	
+
 	public Row(int start, int end, char status, int transferCode) {
 		this.start = start;
 		this.end = end;
 		this.status = status;
 		this.transferCode = transferCode;
+	}
+
+	public String toString() {
+		return "" + start + " " + end + " " + status + " " + transferCode;
 	}
 
 	int getStart() {
@@ -43,5 +46,5 @@ public class Row {
 	void setTransferCode(int transferCode) {
 		this.transferCode = transferCode;
 	}
-	
+
 }
