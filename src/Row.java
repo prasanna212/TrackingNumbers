@@ -3,6 +3,7 @@ public class Row extends Range {
 
 	char status;
 	int transferCode;
+	boolean isDeleted = false;
 
 	public Row(int start, int end, char status, int transferCode) {
 		this.start = start;
