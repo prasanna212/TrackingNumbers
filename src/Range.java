@@ -17,6 +17,10 @@ public class Range {
 		
 	}
 	
+	Range()
+	{
+		
+	}
 	protected boolean isEqual(Range obj)
 	{
 		return ((this.start == obj.start) && (this.end == obj.end));
