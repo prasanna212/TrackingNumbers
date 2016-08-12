@@ -6,6 +6,7 @@ public class Row extends Range {
 	boolean isDeleted = false;
 
 	public Row(int start, int end, char status, int transferCode) {
+		super();
 		this.start = start;
 		this.end = end;
 		this.status = status;
