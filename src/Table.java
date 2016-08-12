@@ -30,4 +30,11 @@ public class Table {
 			System.out.println(row.toString());
 		}
 	}
+
+	private int getClassification(int start, int end, int index) {
+		Range r2 = new Range(start, end);
+		Row row = rows.get(index);
+		Range r1 = new Range(row.start, row.end);
+		return r1.classify(r2);
+	}
 }

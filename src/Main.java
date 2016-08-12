@@ -24,8 +24,10 @@ public class Main {
 				} else
 					break;
 			}
+			System.out.println(testcaseName);
 			t.print();
 		}
+		sc.close();
 	}
 
 }
