@@ -20,7 +20,7 @@ public class Main {
 					end = Integer.parseInt(split[1]);
 					status = split[2].charAt(0);
 					transferCode = Integer.parseInt(split[3]);
-					t.add(new Row(start, end, status, transferCode));
+					t.updateRows(new Row(start, end, status, transferCode));
 				} else
 					break;
 			}

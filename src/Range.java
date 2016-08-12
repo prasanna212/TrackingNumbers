@@ -3,12 +3,12 @@ public class Range {
 	int start;
 	int end;
 
-	final int EQUAL = 1;
-	final int SUBSET = 2;
-	final int SUPERSET = 3;
-	final int DISJOINT = 4;
-	final int STARTOVERLAP = 5;
-	final int ENDOVERLAP = 6;
+	final static int EQUAL = 1;
+	final static int SUBSET = 2;
+	final static int SUPERSET = 3;
+	final static int DISJOINT = 4;
+	final static int STARTOVERLAP = 5;
+	final static int ENDOVERLAP = 6;
 
 	Range(int start, int end) {
 		this.start = start;
